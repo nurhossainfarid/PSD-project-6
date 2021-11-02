@@ -496,13 +496,28 @@ p {
     border-top: 1px solid #3a3a3a;
     min-height: 60px!important;
 }
-.ft_wrp {
+.footer_wrapper {
+    margin-top: 5px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    margin: 30px 20px;
+    text-align: center;
 }
-.ft_wrp p {
-    font-family: Georgia;
-    font-size: 12px;
+.footer_sec1 p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
     color: #666666;
-    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.footer_sec1 a {
+    color: #0000EE;
+}
+.footer_sec2 p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: #666666;
+    margin-bottom: 0px;
+}
+.footer_sec2 a {
+    color: #0000EE;
 }
